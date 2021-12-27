@@ -1,0 +1,9 @@
+[01m[K/home/ubuntu/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:62:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+   62 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-9/README.Bugs> for instructions.
+make[2]: *** [CMakeFiles/turtlebot3_fake_node.dir/build.make:63: CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/turtlebot3_fake_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

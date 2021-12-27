@@ -1,0 +1,33 @@
+[0.627s] Invoking command in '/home/ubuntu/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[8.080s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[761.462s] [ 14%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[775.698s] [ 85%] Built target turtlebot3_node_lib
+[777.810s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[778.766s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[846.306s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[873.384s] [100%] Built target turtlebot3_ros
+[880.972s] Invoked command in '/home/ubuntu/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[886.808s] Invoking command in '/home/ubuntu/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/build/turtlebot3_node
+[887.247s] -- Install configuration: ""
+[887.249s] -- Execute custom install script
+[887.314s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[887.327s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[887.339s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[887.387s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[887.502s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[887.534s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[887.663s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[887.682s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[887.694s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[887.706s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[887.720s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[887.751s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[887.767s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[887.790s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[887.794s] -- Symlinking: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[887.978s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[888.029s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[888.050s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[888.062s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[888.074s] -- Up-to-date symlink: /home/ubuntu/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[888.198s] Invoked command in '/home/ubuntu/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/build/turtlebot3_node

@@ -1,0 +1,16 @@
+In file included from [01m[K/opt/ros/foxy/include/message_filters/signal1.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/message_filters/simple_filter.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:41[m[K,
+                 from [01m[K/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:21[m[K,
+                 from [01m[K/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:40[m[K,
+                 from [01m[K/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/message_event.h:113:3:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+  113 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-9/README.Bugs> for instructions.
+make[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:141: CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/turtlebot3_node_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

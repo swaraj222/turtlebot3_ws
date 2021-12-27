@@ -1,0 +1,152 @@
+[0.060s] Invoking command in '/home/ubuntu/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo
+[0.507s] -- The C compiler identification is GNU 9.3.0
+[3.312s] -- The CXX compiler identification is GNU 9.3.0
+[3.356s] -- Check for working C compiler: /usr/bin/cc
+[3.928s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.968s] -- Detecting C compiler ABI info
+[4.597s] -- Detecting C compiler ABI info - done
+[4.689s] -- Detecting C compile features
+[4.703s] -- Detecting C compile features - done
+[4.729s] -- Check for working CXX compiler: /usr/bin/c++
+[5.348s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.357s] -- Detecting CXX compiler ABI info
+[6.219s] -- Detecting CXX compiler ABI info - done
+[6.305s] -- Detecting CXX compile features
+[6.307s] -- Detecting CXX compile features - done
+[6.406s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.726s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.728s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.348s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[9.424s] -- Checking for module 'bullet>=2.82'
+[9.826s] --   Found bullet, version 2.88
+[12.678s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[13.640s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[14.269s] -- Found assimp: /usr/include (found version "5.0.0") 
+[15.352s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[19.545s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[20.917s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[21.133s] -- Looking for ignition-math6 -- found version 6.9.2
+[21.656s] -- Searching for dependencies of ignition-math6
+[21.762s] -- Looking for OGRE...
+[21.767s] -- OGRE_PREFIX_WATCH changed.
+[21.874s] -- Checking for module 'OGRE'
+[22.037s] --   Found OGRE, version 1.9.0
+[22.701s] -- Found Ogre Ghadamon (1.9.0)
+[22.806s] -- Found OGRE: optimized;/usr/lib/aarch64-linux-gnu/libOgreMain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreMain.so
+[22.887s] -- Looking for OGRE_Paging...
+[22.974s] -- Found OGRE_Paging: optimized;/usr/lib/aarch64-linux-gnu/libOgrePaging.so;debug;/usr/lib/aarch64-linux-gnu/libOgrePaging.so
+[22.975s] -- Looking for OGRE_Terrain...
+[23.060s] -- Found OGRE_Terrain: optimized;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so
+[23.061s] -- Looking for OGRE_Property...
+[23.164s] -- Found OGRE_Property: optimized;/usr/lib/aarch64-linux-gnu/libOgreProperty.so;debug;/usr/lib/aarch64-linux-gnu/libOgreProperty.so
+[23.165s] -- Looking for OGRE_RTShaderSystem...
+[23.243s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so
+[23.244s] -- Looking for OGRE_Volume...
+[23.325s] -- Found OGRE_Volume: optimized;/usr/lib/aarch64-linux-gnu/libOgreVolume.so;debug;/usr/lib/aarch64-linux-gnu/libOgreVolume.so
+[23.326s] -- Looking for OGRE_Overlay...
+[23.450s] -- Found OGRE_Overlay: optimized;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so
+[25.195s] -- Looking for ignition-math6 -- found version 6.9.2
+[25.366s] -- Looking for ignition-transport8 -- found version 8.2.1
+[25.374s] -- Searching for dependencies of ignition-transport8
+[25.754s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[26.097s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[26.126s] -- Checking for module 'libzmq >= 4'
+[26.495s] --   Found libzmq , version 4.3.2
+[26.931s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[27.053s] -- Checking for module 'uuid'
+[27.242s] --   Found uuid, version 2.34.0
+[27.652s] -- Found UUID: TRUE  
+[27.806s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[27.811s] -- Searching for dependencies of ignition-msgs5
+[28.136s] -- Looking for ignition-math6 -- found version 6.9.2
+[28.180s] -- Checking for module 'tinyxml2'
+[28.365s] --   Found tinyxml2, version 6.2.0
+[28.916s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[29.003s] -- Looking for ignition-common3 -- found version 3.14.0
+[29.008s] -- Searching for dependencies of ignition-common3
+[29.022s] -- Looking for dlfcn.h - found
+[29.041s] -- Looking for libdl - found
+[29.061s] -- Found DL: TRUE  
+[29.143s] -- Searching for <ignition-common3> component [graphics]
+[29.224s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[29.230s] -- Searching for dependencies of ignition-common3-graphics
+[29.233s] -- Looking for ignition-math6 -- found version 6.9.2
+[29.455s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[29.462s] -- Searching for dependencies of ignition-fuel_tools4
+[31.042s] -- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.68.0")  
+[31.246s] -- Checking for module 'jsoncpp'
+[31.647s] --   Found jsoncpp, version 1.7.4
+[32.696s] -- Found JSONCPP: TRUE  
+[32.887s] -- Checking for module 'libzip'
+[33.400s] --   Found libzip, version 1.5.1
+[34.526s] -- Found ZIP: TRUE  
+[35.348s] -- Looking for ignition-common3 -- found version 3.14.0
+[35.354s] -- Looking for ignition-math6 -- found version 6.9.2
+[35.369s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[36.557s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[36.752s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[118.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[119.505s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[137.632s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[140.115s] -- Found FastRTPS: /opt/ros/foxy/include  
+[143.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[146.543s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[147.743s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[155.705s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[156.127s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[156.694s] -- Found Threads: TRUE  
+[162.359s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[163.577s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[180.476s] -- Configuring done
+[188.262s] -- Generating done
+[188.299s] -- Build files have been written to: /home/ubuntu/turtlebot3_ws/build/turtlebot3_gazebo
+[206.438s] Invoked command in '/home/ubuntu/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo
+[212.601s] Invoking command in '/home/ubuntu/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+[246.297s] [35m[1mScanning dependencies of target obstacles[0m
+[267.122s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[1411.037s] [ 25%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[1418.942s] [ 25%] Built target obstacles
+[1419.600s] [35m[1mScanning dependencies of target obstacle1[0m
+[1419.603s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[1419.606s] [35m[1mScanning dependencies of target obstacle2[0m
+[1427.557s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[1434.282s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[1434.297s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[2103.603s] [ 75%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[2108.761s] [ 75%] Built target turtlebot3_drive
+[2588.048s] In file included from [01m[K/usr/include/ignition/msgs5/ignition/msgs/MessageTypes.hh:161[m[K,
+[2588.840s]                  from [01m[K/usr/include/ignition/msgs5/ignition/msgs/Utility.hh:33[m[K,
+[2588.841s]                  from [01m[K/usr/include/ignition/msgs5/ignition/msgs.hh:27[m[K,
+[2588.842s]                  from [01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:33[m[K,
+[2588.842s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:25[m[K,
+[2588.844s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30[m[K,
+[2588.844s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+[2588.845s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+[2588.863s]                  from [01m[K/home/ubuntu/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc:22[m[K:
+[2588.871s] [01m[K/usr/include/ignition/msgs5/ignition/msgs/server_control.pb.h:529:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+[2588.872s]   529 | [01;31m[K}[m[K
+[2588.872s]       | [01;31m[K^[m[K
+[2588.873s] Please submit a full bug report,
+[2588.874s] with preprocessed source if appropriate.
+[2588.875s] See <file:///usr/share/doc/gcc-9/README.Bugs> for instructions.
+[2588.883s] make[2]: *** [CMakeFiles/obstacle1.dir/build.make:63: CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o] Error 1
+[2589.261s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle1.dir/all] Error 2
+[2589.286s] make[1]: *** Waiting for unfinished jobs....
+[2616.027s] In file included from [01m[K/usr/include/ignition/msgs5/ignition/msgs/MessageTypes.hh:162[m[K,
+[2616.028s]                  from [01m[K/usr/include/ignition/msgs5/ignition/msgs/Utility.hh:33[m[K,
+[2616.029s]                  from [01m[K/usr/include/ignition/msgs5/ignition/msgs.hh:27[m[K,
+[2616.030s]                  from [01m[K/usr/include/ignition/transport8/ignition/transport/Node.hh:33[m[K,
+[2616.031s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Entity.hh:25[m[K,
+[2616.032s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:30[m[K,
+[2616.032s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Actor.hh:27[m[K,
+[2616.033s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:2[m[K,
+[2616.034s]                  from [01m[K/home/ubuntu/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc:22[m[K:
+[2616.035s] [01m[K/usr/include/ignition/msgs5/ignition/msgs/shadows.pb.h:94:1:[m[K [01;31m[Kinternal compiler error: [m[KSegmentation fault
+[2616.036s]    94 | [01;31m[K}[m[K
+[2616.036s]       | [01;31m[K^[m[K
+[2616.091s] Please submit a full bug report,
+[2616.091s] with preprocessed source if appropriate.
+[2616.092s] See <file:///usr/share/doc/gcc-9/README.Bugs> for instructions.
+[2616.717s] make[2]: *** [CMakeFiles/obstacle2.dir/build.make:63: CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o] Error 1
+[2616.883s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/obstacle2.dir/all] Error 2
+[2617.012s] make: *** [Makefile:141: all] Error 2
